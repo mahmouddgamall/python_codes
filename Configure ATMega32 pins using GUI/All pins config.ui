@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>869</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>PA0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PA7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PB7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PD7</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="Config_groupbox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>741</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Configurations</string>
+   </property>
+   <widget class="QRadioButton" name="output_radioBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>93</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Input_radioBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>93</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Input</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PinName_label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pin Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PinName_lineedit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter Pin Name</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="UseDefault_combobox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Use Default</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="Outpu_groupBox">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>331</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Output level</string>
+    </property>
+    <widget class="QRadioButton" name="High_radioBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>93</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>High</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Low_radioBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>93</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Low</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Input_GroupBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>180</y>
+      <width>341</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Input level</string>
+    </property>
+    <widget class="QRadioButton" name="PullUp_radioBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>93</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pull up</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="HighImpedance_radioBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>93</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>High impedance</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="Path_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>450</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>output path</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="send_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>500</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="load_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>500</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>output_radioBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Input_GroupBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Input_radioBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Input_GroupBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Input_radioBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Outpu_groupBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>635</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>output_radioBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Outpu_groupBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>635</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
